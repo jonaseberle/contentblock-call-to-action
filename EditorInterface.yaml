@@ -1,0 +1,17 @@
+group: common
+fields:
+  - identifier: image
+    type: Image
+  - identifier: text
+    type: Textarea
+    properties:
+      enableRichtext: true
+      richtextConfiguration: default
+  - identifier: buttonText
+    type: Text
+  - identifier: link
+    type: Link
+    properties:
+      linkTypes:
+        - page
+        - external
